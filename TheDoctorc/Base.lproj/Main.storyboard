@@ -120,17 +120,17 @@
                     <navigationItem key="navigationItem" title="The Doctors" id="t2h-e9-7Pj"/>
                     <connections>
                         <outlet property="doctorsTable" destination="mUf-hT-gru" id="1zD-PV-ARZ"/>
-                        <segue destination="0k8-Ys-qxy" kind="show" id="A5F-tR-AXw"/>
+                        <segue destination="0k8-Ys-qxy" kind="show" identifier="CompanionsVC" id="A5F-tR-AXw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="480.80000000000001" y="133.74384236453201"/>
         </scene>
-        <!--View Controller-->
+        <!--CompanionsVC-->
         <scene sceneID="oXT-pa-eVL">
             <objects>
-                <viewController id="0k8-Ys-qxy" sceneMemberID="viewController">
+                <viewController id="0k8-Ys-qxy" customClass="CompanionsVC" customModule="TheDoctorc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s0v-iN-DaL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

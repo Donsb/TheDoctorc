@@ -56,6 +56,8 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         }
     }
     // END Cell For Row At Index Path
+    
+    
 }
 
 // 
