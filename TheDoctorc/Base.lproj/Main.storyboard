@@ -145,7 +145,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="l6o-jI-GWb">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="l6o-jI-GWb" customClass="CompanionCell" customModule="TheDoctorc" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="176" height="348"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -213,6 +213,12 @@
                                             <constraint firstItem="JfA-jo-w8G" firstAttribute="top" secondItem="sDU-pg-LVq" secondAttribute="bottom" constant="5" id="v2W-cA-LHS"/>
                                             <constraint firstItem="fCO-cb-3JR" firstAttribute="top" secondItem="m6A-GY-S09" secondAttribute="bottom" constant="5" id="wUO-Ot-HjI"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="companionActiveYears" destination="fCO-cb-3JR" id="q8c-XU-vhj"/>
+                                            <outlet property="companionActor" destination="0io-Vi-RSg" id="XGi-0u-KSO"/>
+                                            <outlet property="companionImage" destination="sDU-pg-LVq" id="Y1U-qP-UU6"/>
+                                            <outlet property="companionName" destination="gge-E0-ba8" id="yHp-J5-Y3e"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
