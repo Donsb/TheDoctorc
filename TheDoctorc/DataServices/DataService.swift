@@ -41,4 +41,17 @@ class DataService {
     ]
     // END Data for DoctorsVC.
     
+    
+    /*
+     Functions
+     */
+    
+    
+    // Get Doctors Function.
+        // -> Function to return an array of Doctors for the DoctorsVC TableView selection.
+    func getDoctors()-> [Doctor] {
+        return doctors
+    }
+    // END Get Doctors Function.
+    
 }
