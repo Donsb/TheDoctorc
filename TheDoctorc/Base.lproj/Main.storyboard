@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="491" id="73d-0n-geA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="491" id="73d-0n-geA" customClass="DoctorsCell" customModule="TheDoctorc" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="491"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="73d-0n-geA" id="Hl6-Jv-Rwt">
@@ -58,6 +58,10 @@
                                                 <constraint firstItem="aXD-Fd-0d4" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="x3A-Sw-2K7"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="doctorChoiceImage" destination="aXD-Fd-0d4" id="MSL-aI-nVR"/>
+                                            <outlet property="doctorChoiceName" destination="2i3-iZ-Dn6" id="hYC-gn-KI2"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
