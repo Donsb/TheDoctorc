@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5DA74731FD3C486006BCD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74721FD3C486006BCD19 /* AppDelegate.swift */; };
-		A5DA74751FD3C486006BCD19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74741FD3C486006BCD19 /* ViewController.swift */; };
+		A5DA74751FD3C486006BCD19 /* DoctorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74741FD3C486006BCD19 /* DoctorsVC.swift */; };
 		A5DA74781FD3C486006BCD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA74761FD3C486006BCD19 /* Main.storyboard */; };
 		A5DA747A1FD3C486006BCD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DA74791FD3C486006BCD19 /* Assets.xcassets */; };
 		A5DA747D1FD3C486006BCD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA747B1FD3C486006BCD19 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A5DA746F1FD3C486006BCD19 /* TheDoctorc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheDoctorc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA74721FD3C486006BCD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5DA74741FD3C486006BCD19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5DA74741FD3C486006BCD19 /* DoctorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsVC.swift; sourceTree = "<group>"; };
 		A5DA74771FD3C486006BCD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5DA74791FD3C486006BCD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DA747C1FD3C486006BCD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				A5DA74871FD3C4C8006BCD19 /* DataServices */,
-				A5DA74861FD3C4C1006BCD19 /* Model */,
 				A5DA74851FD3C4B5006BCD19 /* Views */,
+				A5DA74861FD3C4C1006BCD19 /* Model */,
 				A5DA74841FD3C49F006BCD19 /* Controllers */,
 				A5DA74721FD3C486006BCD19 /* AppDelegate.swift */,
-				A5DA74741FD3C486006BCD19 /* ViewController.swift */,
 				A5DA74761FD3C486006BCD19 /* Main.storyboard */,
 				A5DA74791FD3C486006BCD19 /* Assets.xcassets */,
 				A5DA747B1FD3C486006BCD19 /* LaunchScreen.storyboard */,
@@ -71,6 +70,7 @@
 		A5DA74841FD3C49F006BCD19 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A5DA74741FD3C486006BCD19 /* DoctorsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DA74751FD3C486006BCD19 /* ViewController.swift in Sources */,
+				A5DA74751FD3C486006BCD19 /* DoctorsVC.swift in Sources */,
 				A5DA74731FD3C486006BCD19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

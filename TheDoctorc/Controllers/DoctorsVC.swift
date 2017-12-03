@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DoctorsVC.swift
 //  TheDoctorc
 //
 //  Created by Donald Belliveau on 2017-12-02.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DoctorsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,3 +23,4 @@ class ViewController: UIViewController {
 
 }
 
+// 
