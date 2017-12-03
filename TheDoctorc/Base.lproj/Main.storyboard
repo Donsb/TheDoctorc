@@ -13,6 +13,7 @@
     <customFonts key="customFonts">
         <array key="Avenir.ttc">
             <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
         </array>
     </customFonts>
     <scenes>
@@ -29,39 +30,76 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DoctorCell" rowHeight="286" id="73d-0n-geA" customClass="DoctorsCell" customModule="TheDoctorc" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="286"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DoctorCell" rowHeight="648" id="73d-0n-geA" customClass="DoctorsCell" customModule="TheDoctorc" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="648"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="73d-0n-geA" id="Hl6-Jv-Rwt">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="285.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="647.66666666666663"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DW_Name" translatesAutoresizingMaskIntoConstraints="NO" id="aXD-Fd-0d4">
-                                                    <rect key="frame" x="15" y="72" width="345" height="200"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1st_Doc" translatesAutoresizingMaskIntoConstraints="NO" id="aXD-Fd-0d4">
+                                                    <rect key="frame" x="15" y="69" width="345" height="351"/>
                                                     <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="200" id="ul3-Th-kCR"/>
+                                                        <constraint firstAttribute="height" constant="351" id="xXa-n1-hFm"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Doctor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2i3-iZ-Dn6">
-                                                    <rect key="frame" x="15" y="11" width="345" height="58"/>
+                                                    <rect key="frame" x="15" y="25" width="345" height="34"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebS-i7-AlW">
+                                                    <rect key="frame" x="15" y="435" width="345" height="23.333333333333314"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="William Hartnell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pba-NS-Syk">
+                                                    <rect key="frame" x="15" y="473.33333333333331" width="345" height="23.333333333333314"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1963-1964" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZX-kT-akB">
+                                                    <rect key="frame" x="15" y="555" width="345" height="23.333333333333371"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years on the show:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qa-1t-2NP">
+                                                    <rect key="frame" x="15" y="516.66666666666663" width="345" height="23.333333333333371"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="2i3-iZ-Dn6" firstAttribute="top" secondItem="Hl6-Jv-Rwt" secondAttribute="topMargin" id="8j2-ex-oFF"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="aXD-Fd-0d4" secondAttribute="bottom" constant="3" id="Fnd-KR-R4h"/>
-                                                <constraint firstItem="2i3-iZ-Dn6" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="Ryf-yI-S0Y"/>
-                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="cyD-2I-VnX"/>
-                                                <constraint firstItem="2i3-iZ-Dn6" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="mzy-Hw-7f8"/>
-                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="top" secondItem="2i3-iZ-Dn6" secondAttribute="bottom" constant="3" id="nAA-Z3-02L"/>
-                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="x3A-Sw-2K7"/>
+                                                <constraint firstItem="Pba-NS-Syk" firstAttribute="top" secondItem="ebS-i7-AlW" secondAttribute="bottom" constant="15" id="20v-oc-nCy"/>
+                                                <constraint firstItem="2i3-iZ-Dn6" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="36s-mM-32y"/>
+                                                <constraint firstItem="6qa-1t-2NP" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="3a2-Kq-iO6"/>
+                                                <constraint firstItem="PZX-kT-akB" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="3o6-Pl-4ZB"/>
+                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="top" secondItem="2i3-iZ-Dn6" secondAttribute="bottom" constant="10" id="8Ni-w6-kyA"/>
+                                                <constraint firstItem="ebS-i7-AlW" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="ASV-z1-aZW"/>
+                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="DeS-BR-n2Y"/>
+                                                <constraint firstItem="2i3-iZ-Dn6" firstAttribute="top" secondItem="Hl6-Jv-Rwt" secondAttribute="topMargin" constant="14" id="Ho8-dZ-eW5"/>
+                                                <constraint firstItem="PZX-kT-akB" firstAttribute="top" secondItem="6qa-1t-2NP" secondAttribute="bottom" constant="15" id="ILr-ud-NpN"/>
+                                                <constraint firstItem="ebS-i7-AlW" firstAttribute="top" secondItem="aXD-Fd-0d4" secondAttribute="bottom" constant="15" id="K0a-6y-ujA"/>
+                                                <constraint firstItem="6qa-1t-2NP" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="Lvy-O7-Lfk"/>
+                                                <constraint firstItem="6qa-1t-2NP" firstAttribute="top" secondItem="Pba-NS-Syk" secondAttribute="bottom" constant="20" id="NkZ-JW-Dnq"/>
+                                                <constraint firstItem="ebS-i7-AlW" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="XtT-qF-PRR"/>
+                                                <constraint firstItem="aXD-Fd-0d4" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="hyd-c5-xhr"/>
+                                                <constraint firstItem="Pba-NS-Syk" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="iHJ-q5-hyZ"/>
+                                                <constraint firstItem="Pba-NS-Syk" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="m1w-XM-6hb"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="2i3-iZ-Dn6" secondAttribute="trailing" id="r3X-uL-uWI"/>
+                                                <constraint firstItem="PZX-kT-akB" firstAttribute="trailing" secondItem="Hl6-Jv-Rwt" secondAttribute="trailingMargin" id="uOU-1t-zeg"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
+                                            <outlet property="doctorActiveYears" destination="PZX-kT-akB" id="ogQ-Df-a1o"/>
+                                            <outlet property="doctorActor" destination="Pba-NS-Syk" id="HTY-1Q-ved"/>
                                             <outlet property="doctorChoiceImage" destination="aXD-Fd-0d4" id="MSL-aI-nVR"/>
                                             <outlet property="doctorChoiceName" destination="2i3-iZ-Dn6" id="hYC-gn-KI2"/>
                                         </connections>
@@ -111,6 +149,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DW_Name" width="600" height="250"/>
+        <image name="1st_Doc" width="300" height="407"/>
     </resources>
 </document>

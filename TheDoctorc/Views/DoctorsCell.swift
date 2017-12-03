@@ -16,6 +16,8 @@ class DoctorsCell: UITableViewCell {
     
     @IBOutlet weak var doctorChoiceImage: UIImageView!
     @IBOutlet weak var doctorChoiceName: UILabel!
+    @IBOutlet weak var doctorActor: UILabel!
+    @IBOutlet weak var doctorActiveYears: UILabel!
     
     
     /*
@@ -27,7 +29,10 @@ class DoctorsCell: UITableViewCell {
     func updateViews(doctor: Doctor) {
         doctorChoiceImage.image = UIImage(named: doctor.imageName)
         doctorChoiceName.text = doctor.title
+        doctorActor.text = doctor.actorName
+        doctorActiveYears.text = doctor.activeYears
     }
     
 }
 
+// 

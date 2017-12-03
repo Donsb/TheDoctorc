@@ -16,14 +16,20 @@ struct Doctor {
     
     private(set) public var title: String
     private(set) public var imageName: String
+    private(set) public var actorName: String
+    private(set) public var activeYears: String
     
     /*
      Initializer
      */
     
-    init(title: String, imageName: String) {
+    init(title: String, imageName: String, actorName: String, activeYears: String) {
         self.title = title
         self.imageName = imageName
+        self.actorName = actorName
+        self.activeYears = activeYears
     }
     // END init.
 }
+
+// 
