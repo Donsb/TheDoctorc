@@ -11,6 +11,12 @@ import UIKit
 class DoctorsVC: UIViewController {
     
     /*
+     IBOutlets
+     */
+    
+    @IBOutlet weak var doctorsTable: UITableView!
+    
+    /*
      Functions
      */
     
