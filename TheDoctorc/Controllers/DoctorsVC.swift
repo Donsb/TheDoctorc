@@ -24,7 +24,8 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     // View Did Load Function.
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        doctorsTable.dataSource = self
+        doctorsTable.delegate = self
     }
     // END View Did Load Function.
     
@@ -46,7 +47,13 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // Cell For Row At Index Path
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "DoctorCell") as? DoctorsCell {
+            let doctor = DataService.instance.getDoctors()[indexPath.row]
+            cell.updateViews(doctor: doctor)
+            return cell
+        } else {
+            return DoctorsCell()
+        }
     }
     // END Cell For Row At Index Path
 }
