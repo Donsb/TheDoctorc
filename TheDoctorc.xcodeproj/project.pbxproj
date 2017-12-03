@@ -14,6 +14,7 @@
 		A5DA747D1FD3C486006BCD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA747B1FD3C486006BCD19 /* LaunchScreen.storyboard */; };
 		A5DA74891FD3C96B006BCD19 /* DoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74881FD3C96B006BCD19 /* DoctorsCell.swift */; };
 		A5DA748B1FD3CC20006BCD19 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA748A1FD3CC20006BCD19 /* Doctor.swift */; };
+		A5DA748D1FD3CE3D006BCD19 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA748C1FD3CE3D006BCD19 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A5DA747E1FD3C486006BCD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DA74881FD3C96B006BCD19 /* DoctorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsCell.swift; sourceTree = "<group>"; };
 		A5DA748A1FD3CC20006BCD19 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		A5DA748C1FD3CE3D006BCD19 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		A5DA74871FD3C4C8006BCD19 /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
+				A5DA748C1FD3CE3D006BCD19 /* DataService.swift */,
 			);
 			path = DataServices;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				A5DA74731FD3C486006BCD19 /* AppDelegate.swift in Sources */,
 				A5DA748B1FD3CC20006BCD19 /* Doctor.swift in Sources */,
 				A5DA74891FD3C96B006BCD19 /* DoctorsCell.swift in Sources */,
+				A5DA748D1FD3CE3D006BCD19 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
