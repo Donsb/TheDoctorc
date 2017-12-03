@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DoctorsVC: UIViewController {
+class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     /*
      IBOutlets
@@ -36,6 +36,19 @@ class DoctorsVC: UIViewController {
     }
     // END Did Receive Memory Warning Function.
     
+    
+    // Number Of Rows In Section
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return DataService.instance.getDoctors().count
+    }
+    // END Number Of Rows In Section
+    
+    
+    // Cell For Row At Index Path
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    // END Cell For Row At Index Path
 }
 
 // 

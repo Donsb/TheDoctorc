@@ -27,7 +27,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mUf-hT-gru">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" red="0.86901358839999998" green="0.92481286699999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="491" id="73d-0n-geA" customClass="DoctorsCell" customModule="TheDoctorc" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="491"/>
@@ -36,9 +36,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="491"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1st_Doc" translatesAutoresizingMaskIntoConstraints="NO" id="aXD-Fd-0d4">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DW_Name" translatesAutoresizingMaskIntoConstraints="NO" id="aXD-Fd-0d4">
                                                     <rect key="frame" x="15" y="42.333333333333343" width="345" height="400"/>
-                                                    <color key="backgroundColor" red="0.86901358839999998" green="0.92481286699999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="400" id="ul3-Th-kCR"/>
                                                     </constraints>
@@ -46,7 +46,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Doctor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2i3-iZ-Dn6">
                                                     <rect key="frame" x="15" y="10.999999999999998" width="345" height="23.333333333333329"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -60,7 +60,7 @@
                                                 <constraint firstItem="aXD-Fd-0d4" firstAttribute="leading" secondItem="Hl6-Jv-Rwt" secondAttribute="leadingMargin" id="x3A-Sw-2K7"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.86901358839999998" green="0.92481286699999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
                                             <outlet property="doctorChoiceImage" destination="aXD-Fd-0d4" id="MSL-aI-nVR"/>
                                             <outlet property="doctorChoiceName" destination="2i3-iZ-Dn6" id="hYC-gn-KI2"/>
@@ -111,6 +111,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1st_Doc" width="300" height="407"/>
+        <image name="DW_Name" width="600" height="250"/>
     </resources>
 </document>

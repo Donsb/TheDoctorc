@@ -22,21 +22,12 @@ class DoctorsCell: UITableViewCell {
      Functions
      */
     
-    
-    // Awake From Nib Function.
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    // Update Views Function.
+        //-> function to up[date the view for everytime we want to update a cell on screen.
+    func updateViews(doctor: Doctor) {
+        doctorChoiceImage.image = UIImage(named: doctor.imageName)
+        doctorChoiceName.text = doctor.title
     }
-    // END Awake From Nib Function.
-    
-    
-    // Set Selected Function.
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    // END Set Selected Function.
     
 }
+
