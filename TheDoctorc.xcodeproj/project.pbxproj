@@ -54,6 +54,10 @@
 		A5DA74711FD3C486006BCD19 /* TheDoctorc */ = {
 			isa = PBXGroup;
 			children = (
+				A5DA74871FD3C4C8006BCD19 /* DataServices */,
+				A5DA74861FD3C4C1006BCD19 /* Model */,
+				A5DA74851FD3C4B5006BCD19 /* Views */,
+				A5DA74841FD3C49F006BCD19 /* Controllers */,
 				A5DA74721FD3C486006BCD19 /* AppDelegate.swift */,
 				A5DA74741FD3C486006BCD19 /* ViewController.swift */,
 				A5DA74761FD3C486006BCD19 /* Main.storyboard */,
@@ -62,6 +66,34 @@
 				A5DA747E1FD3C486006BCD19 /* Info.plist */,
 			);
 			path = TheDoctorc;
+			sourceTree = "<group>";
+		};
+		A5DA74841FD3C49F006BCD19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5DA74851FD3C4B5006BCD19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5DA74861FD3C4C1006BCD19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5DA74871FD3C4C8006BCD19 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
