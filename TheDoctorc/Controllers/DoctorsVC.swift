@@ -79,22 +79,4 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     // END Prepare For Segue Function.
     
 }
-
-// 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// END class DoctorsVC.

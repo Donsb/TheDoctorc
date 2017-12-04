@@ -31,5 +31,4 @@ struct Doctor {
     }
     // END init.
 }
-
-// 
+// END struct Doctor.

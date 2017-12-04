@@ -34,5 +34,4 @@ class CompanionCell: UICollectionViewCell {
     }
     // END Update Views Function.
 }
-
-// 
+// END class CompanionCell

@@ -32,16 +32,4 @@ struct Companion {
     }
     // END init
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+// END struct Companion

@@ -34,5 +34,4 @@ class DoctorsCell: UITableViewCell {
     }
     
 }
-
-// 
+// END class DoctorsCell

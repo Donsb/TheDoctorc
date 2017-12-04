@@ -191,7 +191,7 @@ class DataService {
     
     // Data for 13th Doctor Companions.
     private let theThirteenthDoctor = [
-        Companion(characterName: "Graham, Yasmin & Ryan", actor: "Bradley Walsh, Mandip Gill and Tosin Cole", activeYears: "2018-", imageName: "Graham,Yasmin&Ryan.jpg")
+        Companion(characterName: "Graham, Yasmin & Ryan", actor: "Multiple Actors", activeYears: "2018-", imageName: "Graham,Yasmin&Ryan.jpg")
     ]
     // END Data for 13th Doctor Companions.
     
@@ -336,5 +336,4 @@ class DataService {
     // END Get 13th Doctor Function.
     
 }
-
-// 
+// END class DataService

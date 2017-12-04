@@ -16,10 +16,10 @@ class CompanionsVC: UIViewController, UICollectionViewDelegate, UICollectionView
     
     @IBOutlet weak var companionCollection: UICollectionView!
     
+    
     /*
      Instance Variables
      */
-    
     private(set) public var companions = [Companion]()
     
     
@@ -45,10 +45,12 @@ class CompanionsVC: UIViewController, UICollectionViewDelegate, UICollectionView
     // END Did Receive Memory Warning Function.
     
     
-    //
+    // init Comapnios Function.
+        //-> Grabs the list of companions array.
     func initCompanions(companion: Doctor) {
         companions = DataService.instance.getCompanions(forDoctor: companion.title) // companion is the parameter.title
     }
+    // END init Comapnios Function.
     
     
     // Number of Items In Section Function.
@@ -69,7 +71,5 @@ class CompanionsVC: UIViewController, UICollectionViewDelegate, UICollectionView
     }
     // END Cell For Item At Function.
     
-    
 }
-
-// 
+// END class CompanionsVC
