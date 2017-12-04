@@ -19,6 +19,20 @@ class CompanionCell: UICollectionViewCell {
     @IBOutlet weak var companionActor: UILabel!
     @IBOutlet weak var companionActiveYears: UILabel!
     
+    
+    /*
+     Functions
+     */
+    
+    
+    // Update Views Function.
+    func updateViews(companion: Companion) {
+        companionName.text = companion.characterName
+        companionActor.text = companion.actor
+        companionActiveYears.text = companion.activeYears
+        companionImage.image = UIImage(named: companion.imageName)
+    }
+    // END Update Views Function.
 }
 
 // 

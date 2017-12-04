@@ -72,7 +72,8 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     // Prepare For Segue Function.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let companionsVC = segue.destination as? CompanionsVC {
-            
+            assert(sender as? Doctor != nil) // Make sure sender is class Doctor or force a crash.
+            companionsVC.initCompanions(companion: sender as! Doctor) // Grab the Doctor selected to choose Companions.
         }
     }
     // END Prepare For Segue Function.

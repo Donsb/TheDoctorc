@@ -210,12 +210,36 @@ class DataService {
     
     
     // Get Companions Function.
-    func getCompanions(forDoctor doctor: String)-> String {
+    func getCompanions(forDoctor doctor: String)-> [Companion] {
         switch doctor {
         case "The First Doctor":
-            <#code#>
+            return get1stCompanions()
+        case "The Second Doctor":
+            return get2ndCompanions()
+        case "The Third Doctor":
+            return get3rdCompanions()
+        case "The Fourth Doctor":
+            return get4thCompanions()
+        case "The Fifth Doctor":
+            return get5thCompanions()
+        case "The Sixth Doctor":
+            return get6thCompanions()
+        case "The Seventh Doctor":
+            return get7thCompanions()
+        case "The Eighth Doctor":
+            return get8thCompanions()
+        case "The Ninth Doctor":
+            return get9thCompanions()
+        case "The Tenth Doctor":
+            return get10thCompanions()
+        case "The Eleventh Doctor":
+            return get11thCompanions()
+        case "The Twelfth Doctor":
+            return get12thCompanions()
+        case "The Thirteenth Doctor":
+            return get13thCompanions()
         default:
-            <#code#>
+            return get1stCompanions()
         }
     }
     // END Get Companions Function.

@@ -8,13 +8,19 @@
 
 import UIKit
 
-class CompanionsVC: UIViewController {
+class CompanionsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    /*
+     IBOutlets
+     */
+    
+    @IBOutlet weak var companionCollection: UICollectionView!
     
     /*
      Instance Variables
      */
     
-    //private(set) public var companions = [Companion]()
+    private(set) public var companions = [Companion]()
     
     
     /*
@@ -25,6 +31,8 @@ class CompanionsVC: UIViewController {
     // View Did Load Function.
     override func viewDidLoad() {
         super.viewDidLoad()
+        companionCollection.dataSource = self
+        companionCollection.dataSource = self
     }
     // END View Did Load Function.
     
@@ -39,11 +47,27 @@ class CompanionsVC: UIViewController {
     
     //
     func initCompanions(companion: Doctor) {
-        
+        companions = DataService.instance.getCompanions(forDoctor: companion.title) // companion is the parameter.title
     }
     
     
+    // Number of Items In Section Function.
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return companions.count
+    }
+    // END Number of Items In Section Function.
     
+    
+    // Cell For Item At Function.
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CompanionsCell", for: indexPath) as? CompanionCell {
+            let companion = companions[indexPath.row]
+            cell.updateViews(companion: companion)
+            return cell
+        }
+        return CompanionCell()
+    }
+    // END Cell For Item At Function.
     
     
 }
