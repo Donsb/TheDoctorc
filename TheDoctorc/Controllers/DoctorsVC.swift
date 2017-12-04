@@ -58,6 +58,42 @@ class DoctorsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     // END Cell For Row At Index Path
     
     
+    // Did Select Row At Function.
+        //-> Function to tell us Doctor was tapped, grab data and pass it to CompanionsVC.
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // grabbing data and placing it in doctor.
+        let doctor = DataService.instance.getDoctors()[indexPath.row]
+        // now, sending that data to CompanionsVC.
+        performSegue(withIdentifier: "CompanionsVC", sender: doctor)
+    }
+    // END Did Select Row At Function.
+    
+    
+    // Prepare For Segue Function.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let companionsVC = segue.destination as? CompanionsVC {
+            
+        }
+    }
+    // END Prepare For Segue Function.
+    
 }
 
 // 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

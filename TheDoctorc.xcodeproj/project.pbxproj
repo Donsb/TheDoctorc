@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A537FDD21FD4AE260095AA40 /* CompanionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537FDD11FD4AE260095AA40 /* CompanionCell.swift */; };
 		A537FDD41FD4AF8B0095AA40 /* CompanionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537FDD31FD4AF8B0095AA40 /* CompanionsVC.swift */; };
+		A5B401721FD4B6A100391B45 /* Companion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B401711FD4B6A100391B45 /* Companion.swift */; };
 		A5DA74731FD3C486006BCD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74721FD3C486006BCD19 /* AppDelegate.swift */; };
 		A5DA74751FD3C486006BCD19 /* DoctorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA74741FD3C486006BCD19 /* DoctorsVC.swift */; };
 		A5DA74781FD3C486006BCD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA74761FD3C486006BCD19 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		A537FDD11FD4AE260095AA40 /* CompanionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionCell.swift; sourceTree = "<group>"; };
 		A537FDD31FD4AF8B0095AA40 /* CompanionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionsVC.swift; sourceTree = "<group>"; };
+		A5B401711FD4B6A100391B45 /* Companion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companion.swift; sourceTree = "<group>"; };
 		A5DA746F1FD3C486006BCD19 /* TheDoctorc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheDoctorc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA74721FD3C486006BCD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DA74741FD3C486006BCD19 /* DoctorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsVC.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DA748A1FD3CC20006BCD19 /* Doctor.swift */,
+				A5B401711FD4B6A100391B45 /* Companion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				A5DA748B1FD3CC20006BCD19 /* Doctor.swift in Sources */,
 				A5DA74891FD3C96B006BCD19 /* DoctorsCell.swift in Sources */,
 				A537FDD21FD4AE260095AA40 /* CompanionCell.swift in Sources */,
+				A5B401721FD4B6A100391B45 /* Companion.swift in Sources */,
 				A5DA748D1FD3CE3D006BCD19 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
